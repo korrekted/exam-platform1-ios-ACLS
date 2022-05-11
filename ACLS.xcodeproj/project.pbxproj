@@ -316,6 +316,8 @@
 /* Begin PBXFileReference section */
 		60EAB8C727087386231B8712 /* Pods_ACLS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACLS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72CE16FD42E19B7DB371EA69 /* Pods-ACLS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACLS.debug.xcconfig"; path = "Target Support Files/Pods-ACLS/Pods-ACLS.debug.xcconfig"; sourceTree = "<group>"; };
+		B8F92F4D282BDFB900EBBB24 /* ACLS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ACLS.entitlements; sourceTree = "<group>"; };
+		B8F92F4E282BDFD700EBBB24 /* StatsWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StatsWidgetsExtension.entitlements; sourceTree = "<group>"; };
 		BB0359AA03B711875E481F7E /* Pods-ACLS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACLS.release.xcconfig"; path = "Target Support Files/Pods-ACLS/Pods-ACLS.release.xcconfig"; sourceTree = "<group>"; };
 		DE2D7C68282ABC6E00B8952B /* ACLS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACLS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2D7C74282ABC7000B8952B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -630,6 +632,7 @@
 		DE2D7C5F282ABC6E00B8952B = {
 			isa = PBXGroup;
 			children = (
+				B8F92F4E282BDFD700EBBB24 /* StatsWidgetsExtension.entitlements */,
 				DE2D7C6A282ABC6E00B8952B /* ACLS */,
 				DE2D7C8A282ABC8D00B8952B /* StatsWidgets */,
 				DE2D7C85282ABC8D00B8952B /* Frameworks */,
@@ -650,6 +653,7 @@
 		DE2D7C6A282ABC6E00B8952B /* ACLS */ = {
 			isa = PBXGroup;
 			children = (
+				B8F92F4D282BDFB900EBBB24 /* ACLS.entitlements */,
 				DE2D7CB4282ABDDD00B8952B /* Classes */,
 				DE2D7C7F282ABC7500B8952B /* Resource */,
 			);
@@ -2335,9 +2339,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ACLS/ACLS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M73NH26C3Q;
+				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ACLS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2351,8 +2357,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wed.ACLS;
+				PRODUCT_BUNDLE_IDENTIFIER = exam.acls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "ACLS AppStore";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "ACLS/Resource/ACLS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -2367,9 +2374,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ACLS/ACLS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M73NH26C3Q;
+				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ACLS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2383,8 +2392,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wed.ACLS;
+				PRODUCT_BUNDLE_IDENTIFIER = exam.acls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "ACLS AppStore";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "ACLS/Resource/ACLS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
@@ -2397,9 +2407,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M73NH26C3Q;
+				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = StatsWidgets;
@@ -2411,8 +2423,9 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wed.ACLS.StatsWidgets;
+				PRODUCT_BUNDLE_IDENTIFIER = exam.acls.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "ACLS Widget AppStore";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -2425,9 +2438,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = M73NH26C3Q;
+				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = StatsWidgets;
@@ -2439,8 +2454,9 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = wed.ACLS.StatsWidgets;
+				PRODUCT_BUNDLE_IDENTIFIER = exam.acls.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "ACLS Widget AppStore";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
