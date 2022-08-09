@@ -110,8 +110,8 @@ private extension OSlideImproveView {
         
         NSLayoutConstraint.activate([
             tag8.leadingAnchor.constraint(equalTo: tag6.trailingAnchor),
-            tag8.widthAnchor.constraint(equalToConstant: 78.scale),
-            tag8.heightAnchor.constraint(equalToConstant: 78.scale),
+            tag8.widthAnchor.constraint(equalToConstant: 112.scale),
+            tag8.heightAnchor.constraint(equalToConstant: 112.scale),
             tag8.topAnchor.constraint(equalTo: tag7.bottomAnchor, constant: 3.scale)
         ])
         
