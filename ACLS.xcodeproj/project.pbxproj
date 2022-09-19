@@ -310,7 +310,6 @@
 		DE06935028A29EBE00BF8238 /* OImproveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06920728A29EBD00BF8238 /* OImproveCell.swift */; };
 		DE06935128A29EBE00BF8238 /* ReferencesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06920928A29EBD00BF8238 /* ReferencesTableCell.swift */; };
 		DE06935228A29EBE00BF8238 /* ReferencesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06920A28A29EBD00BF8238 /* ReferencesTableView.swift */; };
-		DE06935328A29EBE00BF8238 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE06920C28A29EBD00BF8238 /* Onboarding.Chart.json */; };
 		DE06935428A29EBE00BF8238 /* OWhenStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06920D28A29EBD00BF8238 /* OWhenStudyCell.swift */; };
 		DE06935528A29EBE00BF8238 /* WelcomeSlide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06920F28A29EBD00BF8238 /* WelcomeSlide1View.swift */; };
 		DE06935628A29EBE00BF8238 /* WelcomeSlideIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE06921028A29EBD00BF8238 /* WelcomeSlideIndicatorView.swift */; };
@@ -363,6 +362,7 @@
 		DE2D7F12282ABDF500B8952B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7F11282ABDF500B8952B /* LaunchScreen.storyboard */; };
 		DE2D7F15282ABDF900B8952B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7F14282ABDF900B8952B /* Localizable.strings */; };
 		DE2D7F16282ABE0A00B8952B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE2D7F14282ABDF900B8952B /* Localizable.strings */; };
+		DE4FA15228D8308900085483 /* Onboarding.Chart.json in Resources */ = {isa = PBXBuildFile; fileRef = DE4FA15128D8308900085483 /* Onboarding.Chart.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -697,7 +697,6 @@
 		DE06920728A29EBD00BF8238 /* OImproveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OImproveCell.swift; sourceTree = "<group>"; };
 		DE06920928A29EBD00BF8238 /* ReferencesTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableCell.swift; sourceTree = "<group>"; };
 		DE06920A28A29EBD00BF8238 /* ReferencesTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferencesTableView.swift; sourceTree = "<group>"; };
-		DE06920C28A29EBD00BF8238 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 		DE06920D28A29EBD00BF8238 /* OWhenStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OWhenStudyCell.swift; sourceTree = "<group>"; };
 		DE06920F28A29EBD00BF8238 /* WelcomeSlide1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlide1View.swift; sourceTree = "<group>"; };
 		DE06921028A29EBD00BF8238 /* WelcomeSlideIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeSlideIndicatorView.swift; sourceTree = "<group>"; };
@@ -749,6 +748,7 @@
 		DE2D7F0F282ABDEB00B8952B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DE2D7F11282ABDF500B8952B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE2D7F14282ABDF900B8952B /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		DE4FA15128D8308900085483 /* Onboarding.Chart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Onboarding.Chart.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2130,7 +2130,7 @@
 		DE06920B28A29EBD00BF8238 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				DE06920C28A29EBD00BF8238 /* Onboarding.Chart.json */,
+				DE4FA15128D8308900085483 /* Onboarding.Chart.json */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -2374,12 +2374,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE06937028A29F0900BF8238 /* SF-Pro-Rounded-Black.otf in Resources */,
-				DE06935328A29EBE00BF8238 /* Onboarding.Chart.json in Resources */,
 				DE2D7F0D282ABDE800B8952B /* SF-Pro-Rounded-Regular.otf in Resources */,
 				DE2D7F0C282ABDE800B8952B /* SF-Pro-Rounded-Semibold.otf in Resources */,
 				DE2D7C75282ABC7000B8952B /* Assets.xcassets in Resources */,
 				DE2D7F12282ABDF500B8952B /* LaunchScreen.storyboard in Resources */,
 				DE2D7F15282ABDF900B8952B /* Localizable.strings in Resources */,
+				DE4FA15228D8308900085483 /* Onboarding.Chart.json in Resources */,
 				DE2D7F0E282ABDE800B8952B /* SF-Pro-Rounded-Bold.otf in Resources */,
 				DE2D7F10282ABDEB00B8952B /* GoogleService-Info.plist in Resources */,
 			);
@@ -2950,7 +2950,7 @@
 				CODE_SIGN_ENTITLEMENTS = ACLS/ACLS.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ACLS/Info.plist;
@@ -2964,7 +2964,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.acls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ACLS AppStore";
@@ -2985,7 +2985,7 @@
 				CODE_SIGN_ENTITLEMENTS = ACLS/ACLS.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ACLS/Info.plist;
@@ -2999,7 +2999,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.acls;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ACLS AppStore";
@@ -3018,7 +3018,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
@@ -3030,7 +3030,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.acls.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ACLS Widget AppStore";
@@ -3049,7 +3049,7 @@
 				CODE_SIGN_ENTITLEMENTS = StatsWidgetsExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = ZY9AXRCYBM;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StatsWidgets/Info.plist;
@@ -3061,7 +3061,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 2.1.0;
+				MARKETING_VERSION = 2.2.0;
 				PRODUCT_BUNDLE_IDENTIFIER = exam.acls.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ACLS Widget AppStore";
