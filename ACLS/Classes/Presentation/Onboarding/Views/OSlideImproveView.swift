@@ -32,8 +32,7 @@ final class OSlideImproveView: OSlideView {
     override func moveToThis() {
         super.moveToThis()
         
-        SDKStorage.shared
-            .amplitudeManager
+        AmplitudeManager.shared
             .logEvent(name: "Improve Screen", parameters: [:])
     }
 }
@@ -110,8 +109,8 @@ private extension OSlideImproveView {
         
         NSLayoutConstraint.activate([
             tag8.leadingAnchor.constraint(equalTo: tag6.trailingAnchor),
-            tag8.widthAnchor.constraint(equalToConstant: 112.scale),
-            tag8.heightAnchor.constraint(equalToConstant: 112.scale),
+            tag8.widthAnchor.constraint(equalToConstant: 140.scale),
+            tag8.heightAnchor.constraint(equalToConstant: 140.scale),
             tag8.topAnchor.constraint(equalTo: tag7.bottomAnchor, constant: 3.scale)
         ])
         
@@ -128,7 +127,7 @@ private extension OSlideImproveView {
 private extension OSlideImproveView {
     func makeTitleLabel() -> UILabel {
         let attrs = TextAttributes()
-            .textColor(UIColor(integralRed: 19, green: 24, blue: 42))
+            .textColor(Appearance.blackColor)
             .font(Fonts.SFProRounded.bold(size: 25.scale))
             .lineHeight(29.scale)
             .textAlignment(.center)
